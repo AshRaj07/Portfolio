@@ -1,0 +1,42 @@
+html{
+	height: 100%;
+}
+body{
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.icon{
+	width:5%;
+	color:#2BC9DD ;
+}
+.box{
+	padding: 5%;
+	margin: 5%;
+}
+.fa-youtube{
+  color: red;
+}
+.fa-facebook-square{
+  color: #7605f0;
+}
+.fa-instagram{
+  color: #c24c11;
+}
+.half{
+  width: 45%;
+  float: left;
+  display: inline-block;
+  margin: 2%;
+}
+.footer{
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
